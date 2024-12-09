@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './seaters.css';
 import {AddToCart} from './cart.js';
 import Cart from './cart.js';
