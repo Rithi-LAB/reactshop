@@ -1,8 +1,10 @@
 import React from 'react';
 import './sofas.css';
+import {AddToCart} from './cart.js';
 import Cart from './cart.js';
 
 const Sofas = () => {
+    const [cart, setCart] = useState([]);
     const items = [
         { id:1,
         name:'Napper L Shape Sofa Set (3 Seater + Left Aligned Chaise)',
