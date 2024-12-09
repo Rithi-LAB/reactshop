@@ -1,7 +1,9 @@
 import React from 'react';
 import './beds.css';
+import {AddToCart} from './cart.js';
 import Cart from './cart.js';
 const Beds = () => {
+    const [cart, setCart] = useState([]);
     const items = [
         { id:1,
         name:'Kepler Queen Size  Upholstered Bed',
