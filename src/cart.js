@@ -25,7 +25,7 @@ const Cart = () => {
   const [cart,setCart] = useState([]);
 
  const RemoveItem = (product) => {
-    setCart((prevState) => prevState.filter((product) => product.id !== item.id));
+    setCart((prevState) => prevState.filter((item) => item.id !== product.id));
  };
 
  const increaseQt = (product) => {
