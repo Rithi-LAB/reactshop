@@ -1,8 +1,10 @@
 import React from 'react';
 import './tables.css';
+import {AddToCart} from './cart.js';
 import Cart from './cart.js';
 
 const Tables = () => {
+    const [cart, setCart] = useState([]);
     const items = [
         { id:1,
         name:'Simsim-Ginamon (6 seater) (with Cushion-Omega Pearl)-Natural Sheesham Wood Dining Set',
