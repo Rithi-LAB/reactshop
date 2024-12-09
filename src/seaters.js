@@ -1,8 +1,10 @@
 import React from 'react';
 import './seaters.css';
+import {AddToCart} from './cart.js';
 import Cart from './cart.js';
 
 const Seaters = () => {
+    const [cart, setCart] = useState([]);
     const items = [
         { id:1,
         name:'Empress Recliner - 1 Seater - Velvet Blue',
