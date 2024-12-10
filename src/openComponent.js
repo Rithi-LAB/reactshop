@@ -27,7 +27,7 @@ const OpenComponent = () => {
     <button onClick = {start_shop}>
     START SHOPPING
     </button> </div>
-    
+     {showCategories && <Categories />}
     </>
  );
 }
