@@ -7,6 +7,7 @@ import Beds from './beds.js';
 import Sofas from './sofas.js';
 import Tables from './table.js';
 import Seaters from './seaters.js';
+import Cart from './cart.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
