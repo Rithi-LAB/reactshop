@@ -10,5 +10,10 @@ root.render(
   <React.StrictMode>
     <OpenComponent />
     <Categories/>
+      <Beds/>
+    <Seaters/>
+    <Sofas/>
+    <Tables/>
+    <Cart/>
   </React.StrictMode>
 );
