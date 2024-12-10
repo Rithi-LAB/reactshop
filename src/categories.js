@@ -8,7 +8,21 @@ import Seaters from './seaters.js';
 const Categories = () => {
 
   const [selectCategories, setSelectCategories] = useState(null);
-
+  const renderSelectCategories = () => {
+     switch(selectCategories){
+         case 'Beds':
+             return <Beds/>;
+         case 'Sofas':
+             return <Sofas />;
+         case 'Tables':
+             return <Tables />;
+         case 'Seaters':
+             return <Seaters />;
+        default:
+             return null;
+    }
+   };
+  
   return (
     <>
       <div className="container">
