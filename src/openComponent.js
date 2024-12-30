@@ -1,10 +1,11 @@
-import React, from 'react';
+import React, { useState } from 'react';
 import './openComponent.css';
 import Categories from './categories.js';
 
 const OpenComponent = () => {
+    const [showCategories, setShowCategories] = useState(false);
     function start_shop() {
-        window.open('/Categories','_blank');
+         setShowCategories(true);
     }
 
     return (
